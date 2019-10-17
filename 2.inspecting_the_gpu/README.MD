@@ -1,4 +1,4 @@
-# Inspecting the GPU 
+# Inspecting the GPU Specifications
 
 Use the following command to get detailed information about your GPU device. This is the most important step to start with GPU programming.
 
@@ -84,6 +84,34 @@ L1i cache:             32K
 L2 cache:              256K
 L3 cache:              8192K
 NUMA node0 CPU(s):     0-7
+```
+
+# Getting the processes running on the GPU 
+
+Use the following command to see the processes running on the GPU
+
+```sh
+nvidia-smi
+```
+
+You will get something like 
+
+```sh 
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 430.26       Driver Version: 430.26       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Quadro K2200        Off  | 00000000:01:00.0 Off |                  N/A |
+| 42%   36C    P8     1W /  39W |     17MiB /  4042MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
++-----------------------------------------------------------------------------+
 ```
 
 # Questions 
