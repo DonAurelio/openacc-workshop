@@ -55,15 +55,12 @@ cd openacc-workshop
 List the content of the current directory 
 
 ```sh
-ls --all
+ls -l
 ```
 
 You will get something like
 
 ```sh
-drwxr-xr-x 6 root root 4096 Oct 18 01:32 ./
-drwx------ 1 root root 4096 Oct 18 01:32 ../
-drwxr-xr-x 8 root root 4096 Oct 18 01:32 .git/
 drwxr-xr-x 5 root root 4096 Oct 18 01:32 1.matrixmult/
 drwxr-xr-x 2 root root 4096 Oct 18 01:32 2.inspecting_the_gpu/
 drwxr-xr-x 4 root root 4096 Oct 18 01:32 3.workshop/
