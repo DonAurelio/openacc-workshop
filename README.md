@@ -52,6 +52,24 @@ Get into the **openacc-workshop** directiry
 cd openacc-workshop
 ```
 
+List the content of the current directory 
+
+```sh
+ls --all
+```
+
+You will get something like
+
+```sh
+drwxr-xr-x 6 root root 4096 Oct 18 01:32 ./
+drwx------ 1 root root 4096 Oct 18 01:32 ../
+drwxr-xr-x 8 root root 4096 Oct 18 01:32 .git/
+drwxr-xr-x 5 root root 4096 Oct 18 01:32 1.matrixmult/
+drwxr-xr-x 2 root root 4096 Oct 18 01:32 2.inspecting_the_gpu/
+drwxr-xr-x 4 root root 4096 Oct 18 01:32 3.workshop/
+-rw-r--r-- 1 root root 1008 Oct 18 01:32 README.md
+```
+
 ## Do not use the following commands until the end of the workshop
 
 To exit from within the container use
