@@ -34,7 +34,7 @@ Install the following packages
 apt install git nano wget time
 ```
 
-## Do not use the following command until the end of the workshop
+## Do not use the following commands until the end of the workshop
 
 To exit from within the container use
 
