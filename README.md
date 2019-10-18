@@ -34,6 +34,12 @@ Install the following packages
 apt install git nano wget time
 ```
 
+Clone this repository into the container
+
+```sh
+git clone https://github.com/DonAurelio/openacc-workshop.git
+```
+
 ## Do not use the following commands until the end of the workshop
 
 To exit from within the container use
