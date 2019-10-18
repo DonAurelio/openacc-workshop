@@ -7,6 +7,13 @@ Requirements:
 3. Nvidia CUDA Installed 
 4. [Docker Nvidia Installed](https://github.com/NVIDIA/nvidia-docker)
 
+
+## Check the NVIDIA GPU CLOUD
+
+Check the NVIDIA GPU CLOUD for a GPU container for this workshop: 
+
+Use the following link https://ngc.nvidia.com/
+
 ## Setting Up
 
 Setting up a docker container to play with the GPU 
