@@ -34,6 +34,12 @@ Install the following packages
 apt install git nano wget time
 ```
 
+Get into the **home** directiry
+
+```sh
+cd $HOME
+```
+
 Clone this repository into the container
 
 ```sh
