@@ -46,6 +46,12 @@ Clone this repository into the container
 git clone https://github.com/DonAurelio/openacc-workshop.git
 ```
 
+Get into the **openacc-workshop** directiry
+
+```sh
+cd openacc-workshop
+```
+
 ## Do not use the following commands until the end of the workshop
 
 To exit from within the container use
